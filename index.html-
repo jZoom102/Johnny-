@@ -1,0 +1,18 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Paj Verifikasyon</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <button style="padding: 10px 20px;" onclick="
+    let nonYo = ['sophie', 'Micherlange']; 
+    let repons = prompt('eKri sèlman prenonw ?'); 
+    if(repons && nonYo.includes(repons.toLowerCase().trim())) { 
+        window.location.href = 'paj_pa_w.html'; 
+    } else { 
+        alert('Non sa a pa bon!'); 
+    }
+">
+    kisaw deside menm,dim nan,sak nan kèw !!
+</button>
